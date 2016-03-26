@@ -23,6 +23,7 @@ _
     datasets => [
         {name => 'dataset', args=>{'size@'=>['tiny1', 'medium1'], 'backend@'=>['hash', 'array']}},
     ],
+    include_result_size => 1,
 };
 
 1;
