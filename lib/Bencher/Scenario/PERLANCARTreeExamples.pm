@@ -17,7 +17,7 @@ size.
 _
     participants => [
         {
-            fcall_template => 'PERLANCAR::Tree::Examples::gen_sample_tree(size => <size>, backend => <backend>)',
+            fcall_template => 'PERLANCAR::Tree::Examples::gen_sample_data(size => <size>, backend => <backend>)',
         },
     ],
     datasets => [
