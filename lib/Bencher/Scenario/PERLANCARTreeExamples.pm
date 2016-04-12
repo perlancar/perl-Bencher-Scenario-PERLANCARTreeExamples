@@ -9,6 +9,9 @@ use warnings;
 
 our $scenario = {
     summary => 'Benchmark PERLANCAR::Tree::Examples',
+    modules => {
+        'PERLANCAR::Tree::Examples' => {version=>1.0.4},
+    },
     description => <<'_',
 
 Created just for testing, while adding feature in `Bencher` to return result
